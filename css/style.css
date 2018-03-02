@@ -1,0 +1,131 @@
+/**
+Milk Communications CSS
+*/
+* {
+	margin: 0;
+	padding: 0;
+}
+html, body {
+	height: 100%;
+}
+
+body {
+	margin:0 auto;
+	padding:0;
+}
+
+#home {
+	background: url(../images/page1_bg_fixed.png) no-repeat center fixed;
+	/*background: #FFFFFF 50% 0 no-repeat fixed;
+	min-height: 100%;
+	height: auto !important;*/
+	height: 100%;
+	margin: 0 auto;
+	width: 100%;
+	position: relative;
+	/*box-shadow: 0 0 50px rgba(0, 0, 0, 0.8);
+	-webkit-box-shadow: -5px 0px 5px 0px #888; */
+}
+
+#about {
+	background: #4ac6f0 no-repeat fixed;
+	/*background: url(../images/page2_bg.png) repeat center fixed;*/
+	height: 100%;
+	margin: 0 auto;
+	width: 100%;
+	position: relative;
+	/*box-shadow: 0 0 50px rgba(0, 0, 0, 0.8);*/
+}
+
+#services {
+	background: #ffffff no-repeat fixed;
+	height: 100%;
+	margin: 0 auto;
+	width: 100%;
+	position: relative;
+}
+
+#more {
+	background: #4ac6f0 no-repeat fixed;
+	height: 100%;
+	margin: 0 auto;
+	width: 100%;
+	position: relative;
+}
+
+#whymilk {
+	background: #ffffff no-repeat fixed;
+	height: 100%;
+	margin: 0 auto;
+	width: 100%;
+	position: relative;
+}
+
+#contact {
+	background: #ffffff no-repeat fixed;
+	height: 100%;
+	margin: 0 auto;
+	width: 100%;
+	position: relative;
+}
+
+#home article {
+	display: none;
+	background: url(../images/page1_top5.png) no-repeat scroll center center transparent;
+	margin: 0 auto;
+	height: 100%;
+	position: relative;
+	text-indent: -9999px;
+	width: 100%;
+}
+#about article {
+	background: url(../images/page2_top.png) no-repeat scroll center center transparent;
+	margin: 0 auto;
+	height: 100%;
+	position: relative;
+	text-indent: -9999px;
+	width: 100%;
+}
+
+#services article {
+	background: url(../images/page3_top_advertising.png) no-repeat scroll center center transparent;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	text-indent: -9999px;
+}
+
+#more article {
+	background: url(../images/page4_top_experience.png) no-repeat scroll center center transparent;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	text-indent: -9999px;
+}
+
+#whymilk article {
+	background: url(../images/page5_top_whymilk.png) no-repeat scroll center center transparent;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	text-indent: -9999px;
+}
+
+#contact article {
+	background: url(../images/page6_top_contact.png) no-repeat scroll center center transparent;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	text-indent: -9999px;
+}
+
+#nav {
+	background-color: #eee;
+}
+#nav ul {
+	float: right;
+}
+#nav ul li {
+	float: left;
+	display: inline;
+}
